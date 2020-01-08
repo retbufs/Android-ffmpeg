@@ -299,8 +299,7 @@ chmod 777 build_android.sh
 ```
 等待最终结束so文件输出即可。。。
 
-
-
+# 当前库所在目录为：android-build文件目录下libs对应CPU架构目录下
 
 
 
