@@ -76,10 +76,10 @@ sudo make install
 ```
 [nasm前往下载](https://www.nasm.us/)
 > 安装方法同上
-
-
 ----- 
 ### 3.编译脚本:android_build.sh::不要着急开始执行---往下看
+
+
 
 ```
 #!/usr/bin/env bash
@@ -291,6 +291,16 @@ SLIB_INSTALL_LINKS='$(SLIBNAME)'
 ```
 chmod 777 build_android.sh
 ```
+> 功能定制：自行修改build_all处的参数：
+```
+查看所有编译配置选项：./configure --help
+查看支持的解码器：./configure --list-decoders
+查看支持的编码器：./configure --list-encoders
+查看支持的硬件加速：./configure --list-hwaccels
+```
+
+
+
 ### 完成以上操作就可以开始执行编译脚本了
 
 ```
