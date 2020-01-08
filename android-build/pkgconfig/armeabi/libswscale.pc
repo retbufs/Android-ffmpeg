@@ -1,0 +1,14 @@
+prefix=android-build
+exec_prefix=${prefix}
+libdir=android-build/libs/armeabi
+includedir=android-build/includes/armeabi
+
+Name: libswscale
+Description: FFmpeg image rescaling library
+Version: 5.5.100
+Requires: 
+Requires.private: libavutil >= 56.31.100
+Conflicts:
+Libs: -L${libdir}  -lswscale 
+Libs.private: -lm
+Cflags: -I${includedir}
