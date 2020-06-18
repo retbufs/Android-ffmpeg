@@ -240,6 +240,11 @@ build_all(){
     COMMON_OPTIONS="$COMMON_OPTIONS --enable-decoder=vorbis"
     COMMON_OPTIONS="$COMMON_OPTIONS --enable-decoder=opus"
     COMMON_OPTIONS="$COMMON_OPTIONS --enable-decoder=flac"
+    COMMON_OPTIONS="$COMMON_OPTIONS --enable-postproc"
+    COMMON_OPTIONS="$COMMON_OPTIONS --enable-gpl"
+
+
+
 
     echo "COMMON_OPTIONS=$COMMON_OPTIONS"
     echo "PREFIX=$PREFIX"
